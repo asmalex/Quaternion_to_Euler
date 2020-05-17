@@ -16,3 +16,11 @@ Only yaw rotation – “heading changes” |	0 – pitch, 0- roll, don’t care
 •	Roll 90, 180,270,360 degrees |	90 – pitch, roll goes to 90, 180, 270, 360
 •	Roll +90 degrees “bank left”
 •	Yaw 90, 180, 270, 360 degrees	| Pitch goes to 90, 180, 270, 360, 90 – roll, 0-yaw
+
+## Installation
+•	Place contents into your project's \assets\scripts\ folder. 
+•	That's it!
+•	To run a unit test open Unity and from the menu select Window - > General -> Test Runner
+•	You should see the unit tests in the test runner under "EditMode". You can run a unit test by double-clicking it
+
+Note: this was tested on Unity 2019.2.18f1. It'll likely work on other version of Unity but I haven't checked.
