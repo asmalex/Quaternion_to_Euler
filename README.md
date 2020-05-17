@@ -2,7 +2,7 @@
 
 Unit tests for checking Unity can control the movement of a 2DOF 360-capable pitch & roll flight simulator in a way that makes sense
 
-##Test Table
+## Test Table
 If I do this in the spaceship… | Then I expect these Euler values returned…
 ------------ | -------------
 Only pitch rotation – spaceship “backflips” |	Only pitch value changes, 0 – roll, 0 -yaw
